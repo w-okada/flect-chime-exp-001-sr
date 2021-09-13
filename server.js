@@ -17,12 +17,13 @@ if (fs.existsSync('./config.js')) {
 
 let hostname = '0.0.0.0';
 let port = 8888;
-let protocol = 'https';
-var ssl_server_key = 'server.key';
-var ssl_server_crt = 'server.crt';
+let protocol = 'http';
+// let protocol = 'https';
+// var ssl_server_key = 'server.key';
+// var ssl_server_crt = 'server.crt';
 let options = {
-    key: fs.readFileSync(ssl_server_key),
-    cert: fs.readFileSync(ssl_server_crt)
+    // key: fs.readFileSync(ssl_server_key),
+    // cert: fs.readFileSync(ssl_server_crt)
 };
 
 let chime = undefined
