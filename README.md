@@ -35,7 +35,7 @@ $ npm run build
 $ node server.js
 ```
 
-Access to the https://localhost:8888 with your browser. 
+Access to the http://localhost:8888 with your browser. 
 
 
 
