@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 dist
-public/resources/train
-public/resources/test
+public/resources/train/*.png
+public/resources/test/*.png
